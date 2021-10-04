@@ -1,0 +1,21 @@
+{
+    "name": "mistofjoy/dataphp",
+    "description": "Apuntes del curso de manejo de datos con php de Platzi (10-2021)",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhonkar Sufia",
+            "email": "windyforest13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
